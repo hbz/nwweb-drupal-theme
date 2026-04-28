@@ -216,7 +216,7 @@ body, input, label, .fieldset-legend, .ui-widget {
 }
 
 a {
-	color: #871d33;
+	color: #2f994c;
 }
 
 input.form-submit, button {
@@ -227,7 +227,7 @@ input.form-submit, button {
 input.form-submit:hover, input.form-submit:focus, button:hover, button:focus
 	{
 	background: #dedede;
-	box-shadow: 0px 0px 6px #ff9933;
+	box-shadow: 0px 0px 6px #2f994c;
 }
 
 input.form-submit, button {
@@ -254,7 +254,7 @@ input.form-submit, button {
 }
 
 a:hover {
-	color: #ff9933;
+	color: #2f994c;
 }
 
 .region-header .block {
@@ -354,7 +354,7 @@ table h1 {
 }
 
 ul.edoweb-facets-active>li {
-	background-color: #ff9933;
+	background-color: #2f994c;
 	-khtml-border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -388,13 +388,13 @@ ul.edoweb-facets-available>li span {
 }
 
 ul.edoweb-facets-available a {
-	color: #871d33;
+	color: #2f994c;
 	word-wrap: break-word;
 	word-break: break-all;
 }
 
 ul.edoweb-facets-available a:hover {
-	color: #ff9933;
+	color: #2f994c;
 }
 
 .item-list .title {
@@ -407,7 +407,7 @@ ul.edoweb-facets-available a:hover {
 }
 
 .form-text:hover {
-	box-shadow: inset 0px 0px 6px #ff9933;
+	box-shadow: inset 0px 0px 6px #2f994c;
 }
 
 .form-type-item {
@@ -479,7 +479,7 @@ ul.edoweb-facets-available a:hover {
 }
 
 .edoweb-tree-clipboard-item {
-	background-color: #ff9933;
+	background-color: #2f994c;
 }
 
 #edoweb-tree-menu {
@@ -525,7 +525,7 @@ form, #edoweb-basic-search-entities-form {
 
 #edoweb-basic-search-entities-form input.form-text, textarea.form-textarea,
 	select.form-select {
-	border: 1px solid #871d33;
+	border: 1px solid #2f994c;
 	margin-right: 2px;
 	float: left;
 }
@@ -987,7 +987,7 @@ display:none;
 
 
 .item-list .titleMain,.item-list .otherTitle, .item-list .corporateBodyForTitle{
-	color:#871d33;
+	color:#2f994c;
 	font-size: .6em;
     font-family: "Signika"; font-style: normal; 
  }
