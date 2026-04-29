@@ -91,7 +91,7 @@
 
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" height="90"/>
+        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" height="60"/>
       </a>
     <?php endif; ?>
 
@@ -116,10 +116,15 @@
           <div id="site-slogan"<?php if ($hide_site_slogan) { print ' class="element-invisible"'; } ?>>
             <?php print $site_slogan; ?>
           </div>
-        <?php endif; ?>
+	<?php endif; ?>
 
       </div> <!-- /#name-and-slogan -->
     <?php endif; ?>
+    <div class="header_logos">
+	<img src=" /sites/all/themes/nwweb-drupal-theme/images/Landesbibliotheken_NRW.png" alt="Landesbibliotheken NRW" width="285" />
+        <span class="logo_sep">|</span>
+	<img src=" /sites/all/themes/nwweb-drupal-theme/images/LAV_Logo_A+Wappen_4C.svg" alt="Landesarchiv NRW" width="255" />
+    </div>
 
     <?php print render($page['header']); ?>
 
@@ -222,7 +227,11 @@
       <?php print render($page['triptych_last']); ?>
     </div></div> <!-- /#triptych, /#triptych-wrapper -->
   <?php endif; ?>
-
+  <div class="hosted_by">
+    <a href="https://www.hbz-nrw.de">
+      <img src="/sites/all/themes/nwweb-drupal-theme/images/hbz-Logo-rgb-ohne-Claim.png" alt="hbz NRW" />
+    </a>
+  </div>
   <div id="footer-wrapper"><div class="section">
 
     <?php if ($page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn'] || $page['footer_fourthcolumn']): ?>
