@@ -121,9 +121,13 @@
       </div> <!-- /#name-and-slogan -->
     <?php endif; ?>
     <div class="header_logos">
-	<img src=" /sites/all/themes/nwweb-drupal-theme/images/Landesbibliotheken_NRW.png" alt="Landesbibliotheken NRW" width="285" />
-        <span class="logo_sep">|</span>
-	<img src=" /sites/all/themes/nwweb-drupal-theme/images/LAV_Logo_A+Wappen_4C.svg" alt="Landesarchiv NRW" width="255" />
+	<a href="https://www.landesbibliotheken.nrw/">
+	  <img src=" /sites/all/themes/nwweb-drupal-theme/images/Landesbibliotheken_NRW.png" alt="Landesbibliotheken NRW" width="285" />
+        </a>
+	<span class="logo_sep">|</span>
+        <a href="https://www.archive.nrw.de/landesarchiv-nrw">
+	  <img src=" /sites/all/themes/nwweb-drupal-theme/images/LAV_Logo_A+Wappen_4C.svg" alt="Landesarchiv NRW" width="255" />
+        </a>
     </div>
 
     <?php print render($page['header']); ?>
