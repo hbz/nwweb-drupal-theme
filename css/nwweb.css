@@ -1033,6 +1033,9 @@ body.not-logged-in.entity-type-webpage .edoweb-tree  a[data-bundle="file"] {
 .header_logos .logo_sep {
   font-size: 30px;
 }
+.mkw {
+  float: right;
+}
 /* 2 spalten auf startseite*/
 .row {
   overflow: hidden;

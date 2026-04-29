@@ -240,6 +240,12 @@
         <?php print render($page['footer_secondcolumn']); ?>
         <?php print render($page['footer_thirdcolumn']); ?>
         <?php print render($page['footer_fourthcolumn']); ?>
+	<div class="mkw">
+	    <a href="https://www.mkw.nrw">
+	      <img src="/sites/all/themes/nwweb-drupal-theme/images/mkw-logo.png" alt="MKW" />
+	    </a>
+	</div>
+
       </div> <!-- /#footer-columns -->
     <?php endif; ?>
 
