@@ -1050,4 +1050,7 @@ body.not-logged-in.entity-type-webpage .edoweb-tree  a[data-bundle="file"] {
   float: left;
   width: 60%;
 }
+.right img {
+  padding-left: 75px;
+}
 
